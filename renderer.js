@@ -1,10 +1,10 @@
-onload = () => {
-  const webview = document.querySelector('webview')
-  const indicator = document.querySelector('.indicator')
-  const shell = require('electron').shell
-
-  // open link target="_blank"
-  webview.addEventListener('new-window', function(event) {
-    shell.openExternal(event.url)
-  })
-}
+"use strict";
+var webview = document.querySelector('webview');
+var indicator = document.querySelector('.indicator');
+var shell = require('electron').shell;
+onload = function () {
+    webview.addEventListener('new-window', function (event) {
+        shell.openExternal(event.url);
+    });
+};
+//# sourceMappingURL=renderer.js.map
