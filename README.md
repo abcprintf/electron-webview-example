@@ -25,6 +25,15 @@ npm install
 npm start
 ```
 
+How to build
+
+```bash
+# Build typescript => javascript
+npm run buildTsc
+# Build application
+npm run pack
+```
+
 ## Resources for Learning Electron
 
 - [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
