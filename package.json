@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/abcprintf/electron-webview-example#readme",
   "devDependencies": {
-    "electron": "^2.0.0",
+    "electron": "^9.1.0",
     "electron-builder": "^20.15.1"
   }
 }
